@@ -248,19 +248,19 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-"d3-array@2 - 3":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-3.1.1.tgz#7797eb53ead6b9083c75a45a681e93fc41bc468c"
-  integrity sha512-33qQ+ZoZlli19IFiQx4QEpf2CBEayMRzhlisJHSCsSUbDXv6ZishqS1x7uFVClKG4Wr7rZVHvaAttoLow6GqdQ==
+"d3-array@npm:@krisdages/d3-array@<4":
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/@krisdages/d3-array/-/d3-array-3.1.7.tgz#4c75e31e7de31f99bb51cf3f8d60a660593da37d"
+  integrity sha512-fvPOulkPoHejqJq4T0s6iqi3t4sblRQY92XGb5oN8NO98N1iG2jn4Cab69YJed9xZNgcTRgYQfXPCgWTAZ259g==
   dependencies:
-    internmap "1 - 2"
+    internmap "npm:@krisdages/internmap@<3"
 
-"d3-time@1 - 3":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/d3-time/-/d3-time-3.0.0.tgz#65972cb98ae2d4954ef5c932e8704061335d4975"
-  integrity sha512-zmV3lRnlaLI08y9IMRXSDshQb5Nj77smnfpnd2LrBa/2K281Jijactokeak14QacHs/kKq0AQ121nidNYlarbQ==
+"d3-time@npm:@krisdages/d3-time@<4":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@krisdages/d3-time/-/d3-time-3.0.1.tgz#921fabd0530e82cfb2f42eff298b681fbd4e521a"
+  integrity sha512-ASRSlPBUlzKSn2j607UwG3UFL5KHh9K3a9+YP+nvRy8LQ+Qmjpllch3qAEemZdBxc2eR0SgLflzPzKpW3Psc+g==
   dependencies:
-    d3-array "2 - 3"
+    d3-array "npm:@krisdages/d3-array@<4"
 
 debug@4.3.2:
   version "4.3.2"
@@ -598,10 +598,10 @@ inherits@2:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
-"internmap@1 - 2":
+"internmap@npm:@krisdages/internmap@<3":
   version "2.0.3"
-  resolved "https://registry.yarnpkg.com/internmap/-/internmap-2.0.3.tgz#6685f23755e43c524e251d29cbc97248e3061009"
-  integrity sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==
+  resolved "https://registry.yarnpkg.com/@krisdages/internmap/-/internmap-2.0.3.tgz#dfcbdb89769c4acdf8cf0c709fba7adb42f0f741"
+  integrity sha512-LDolun99HZE5rSdCNxW1TBMn0S/POwI48B0HhqlKl/ebmDHP2ruJNT3rqd8z/rMo4K8Ps/sXw5THj/Bb0ReujA==
 
 is-binary-path@~2.1.0:
   version "2.1.0"
